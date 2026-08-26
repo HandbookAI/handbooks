@@ -25,7 +25,7 @@ catalog:
   zod: ^4.0.0
 
   # --- types ---
-  '@types/markdown-it': ^14.0.0
+  '@types/markdown-it': ^14.2.0
   '@types/node': ^26.2.0
 
   # --- toolchain ---
