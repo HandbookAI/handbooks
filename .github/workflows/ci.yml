@@ -387,7 +387,7 @@ jobs:
       # not publish it. The GitHub Actions cache keeps a rebuild off the critical
       # path when only application code changed.
       - name: Build
-        uses: docker/build-push-action@v6
+        uses: docker/build-push-action@v7
         with:
           context: .
           load: true
