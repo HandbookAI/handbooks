@@ -65,7 +65,7 @@ jobs:
       # keeps the version number spent either way.
       - run: pnpm run check:all
 
-      - uses: changesets/action@v1
+      - uses: changesets/action@v2
         with:
           version: pnpm run release:version
           publish: pnpm run release:publish
