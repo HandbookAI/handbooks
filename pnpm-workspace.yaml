@@ -13,7 +13,7 @@ packages:
 catalog:
   # --- runtime ---
   commander: ^15.0.0
-  markdown-it: ^15.0.0
+  markdown-it: ^15.0.1
   # 0.1.13 already ships the java/c#/c/c++/ruby/php/swift/dart/solidity/kotlin/
   # scala grammars, so adding a language needs no new dependency. Its bundled
   # tree-sitter-lua grammar is broken (order-dependent results) — do not adopt it.

@@ -46,8 +46,8 @@ catalogs:
       specifier: ^17.3.0
       version: 17.3.0
     markdown-it:
-      specifier: ^15.0.0
-      version: 15.0.0
+      specifier: ^15.0.1
+      version: 15.0.1
     prettier:
       specifier: ^3.9.6
       version: 3.9.6
@@ -232,7 +232,7 @@ importers:
         version: link:../core
       markdown-it:
         specifier: 'catalog:'
-        version: 15.0.0
+        version: 15.0.1
     devDependencies:
       '@types/markdown-it':
         specifier: 'catalog:'
@@ -1490,8 +1490,8 @@ packages:
     resolution: {integrity: sha512-hXdUTZYIVOt1Ex//jAQi+wTZZpUpwBj/0QsOzqegb3rGMMeJiSEu5xLHnYfBrRV4RH2+OCSOO95Is/7x1WJ4bw==}
     engines: {node: '>=10'}
 
-  markdown-it@15.0.0:
-    resolution: {integrity: sha512-Lf8ajvVNdRpzSNB4VegxNy7gjs8gU35l4b4+ET49LrQC5PKYwLZ72u60LeJ9gv3qiaesuYjJWCyVeQmv/QWKQw==}
+  markdown-it@15.0.1:
+    resolution: {integrity: sha512-9/7gE95FNPkfUWrjJIoHZza2iLmuJlPD0UNMxPi7bxUrbCR525YZY0r+zyfes0dZI5ZZ/uNIXUJca0pJvtw41g==}
     hasBin: true
 
   marked-terminal@7.3.0:
@@ -3272,7 +3272,7 @@ snapshots:
     dependencies:
       semver: 7.8.5
 
-  markdown-it@15.0.0:
+  markdown-it@15.0.1:
     dependencies:
       argparse: 3.0.0
       entities: 8.0.0
